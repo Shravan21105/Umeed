@@ -7,6 +7,7 @@ import Schools from "./pages/Schools";
 import Contact from "./pages/Contact";
 import Donate from "./pages/Donate";
 import Accessibility from "./pages/Accessibility";
+import Events from "./pages/Events";
 import NotFound from "./pages/NotFound";
 import Resources from "./pages/Resources";
 import { useState, useEffect } from "react";
@@ -40,6 +41,7 @@ function App() {
             <Route path="/schools" element={<Schools />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/donate" element={<Donate />} />
+            <Route path="/events" element={<Events />} />
             <Route path="/accessibility" element={<Accessibility />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="*" element={<NotFound />} />
