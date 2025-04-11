@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import { FiMenu, FiX } from "react-icons/fi"; 
+import { FiMenu, FiX } from "react-icons/fi";
 
 function Navbar({ darkMode, setDarkMode }) {
   const location = useLocation();
-  const menuItems = ["Home", "About", "Schools", "Resources", "Contact", "Donate", "Accessibility"]; 
-  const [isOpen, setIsOpen] = useState(false); 
+  const menuItems = ["Home", "About", "Schools", "Resources", "Contact", "Events", "Donate", "Accessibility"];
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav
@@ -81,7 +81,7 @@ function Navbar({ darkMode, setDarkMode }) {
         </div>
 
         <ul className="hidden lg:flex space-x-8 items-center">
-          {menuItems.slice(0, 5).map((item, index) => {
+          {menuItems.slice(0, 6).map((item, index) => {
             const path = `/${item.toLowerCase()}`;
             const isActive = location.pathname === path;
 
