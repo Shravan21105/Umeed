@@ -60,7 +60,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Shravan21105/Umeed.git
    cd Umeed
    ```
 
