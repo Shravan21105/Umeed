@@ -91,9 +91,6 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License.
 
 ---
 *Made with ❤️ by Team Umeed*
